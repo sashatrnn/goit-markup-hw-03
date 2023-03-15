@@ -168,7 +168,7 @@ ul {
 }
 
 .address .link:hover,
-.address .link.focus {
+.address .link:focus {
   color: var(--link-color);
 }
 
