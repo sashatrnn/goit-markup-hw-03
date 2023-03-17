@@ -157,12 +157,11 @@ ul {
 
 .address{
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
-.address-item {
-  padding: 7px 15px
+.address-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .address .link {
@@ -308,7 +307,7 @@ width: calc((100% - 72px) / 4);
 
 .work-item {
     display: flex;
-    flex-basis: 412px;
+    flex-basis: 360px;
   }
 
 /* Team section */
@@ -326,13 +325,12 @@ width: calc((100% - 72px) / 4);
 
 .team-section {
   background: var(--alternative-color);
-  padding: 120px;
+  padding: 120px 0;
   text-align: center;
 }
 
 .team{
   display: flex;
-  gap: 24px;
   line-height: 1.2;
 }
 
@@ -344,7 +342,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 24px;
 }
 
 .card{
